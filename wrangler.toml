@@ -1,8 +1,6 @@
-name = "v20251104"
-main = "_worker.js"
+name = "boring-page"
+pages_build_output_dir = "."
 compatibility_date = "2025-11-04"
-keep_vars = true
-
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "c2c996cb38d54647b9883ab72056da9b"
